@@ -1,0 +1,20 @@
+name: Transperceneige
+version: '${project.version}'
+main: com.example.loupgarou.LoupGarouPlugin
+api-version: '26.3'
+description: Jeu de deduction sociale dans un train (loup-garou)
+softdepend: [voicechat]
+
+commands:
+  lg:
+    description: Commande principale du jeu
+    usage: /lg <join|leave|start|stop|menu|role|setup>
+    aliases: [loupgarou, transperceneige]
+
+permissions:
+  lg.play:
+    description: Rejoindre une partie
+    default: true
+  lg.admin:
+    description: Configurer l'arene et gerer les parties
+    default: op

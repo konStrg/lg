@@ -1,0 +1,39 @@
+game:
+  min-players: 5
+  lobby-countdown: 30
+  cabin-radius: 3.0
+  reveal-role-on-death: true
+
+durations:
+  # secondes
+  captain-vote: 60
+  council-vote: 90
+  captain-decision: 20
+  event: 60
+  night-actions: 45
+  cannibal-debate: 60
+  hunt-max: 180
+  announce: 8
+
+roles:
+  # probabilite d'avoir 1 / 2 / 3 roles avec pouvoir (vert) et rouge au depart
+  initial-chance: [0.30, 0.15, 0.01]
+  guarantee-initial-red: true
+
+events:
+  red-ratio: 0.25
+  winners-ratio: 0.25
+
+hunt:
+  hunter-weapon: IRON_SWORD
+  veteran-weapon: STONE_SWORD
+
+effects:
+  night-time: 18000
+  day-time: 1000
+  night-storm: true
+  night-darkness: true
+
+voice:
+  enabled: true
+  proximity: 24.0
