@@ -50,11 +50,7 @@ Alias : `/loupgarou`, `/transperceneige`. Permissions : `lg.play` (par defaut), 
 ## Deroulement
 
 - Jour impair = vote ; jour pair = evenement. Nuit impaire = pouvoirs verts ; nuit paire = pouvoirs rouges.
-- **Jour 1** : election du Capitaine (sa voix compte double ; il choisit expulsion ou confinement, au hasard sans capitaine).
-- **Nuit 1** : pouvoirs verts uniquement.
-- **Jour 2** : evenement (code a saisir) ; les gagnants Voyageurs peuvent recevoir un nouveau role.
-- **Nuit 2** : les Cannibales debattent en prive et choisissent une victime ou s'abstiennent. Un cannibale recoit une arme et traque la victime ; la nuit dure jusqu'a la mort ou le delai max.
-- **Jour 3+** : vote du conseil, le joueur est confine dans sa cabine (nuit N, jour N+1, nuit N+1) ou ejecte.
+- ZEBI
 
 ## Roles
 
